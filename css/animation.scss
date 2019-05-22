@@ -1,0 +1,38 @@
+@import "fonts_vars";
+
+@include min-screen(992px){
+  @keyframes letter-space{
+    0% {letter-spacing: 5px;}
+    50% {letter-spacing: 15px;}
+    100% {letter-spacing: 5px;}
+  }
+}
+
+@include min-screen(768px){
+  @keyframes nav_ft1{
+    0% {opacity: 0}
+    30%{opacity: 0}
+    100% {opacity: 1}
+  }
+}
+
+@keyframes scale{
+  0% {transform: scale(0)}
+  25% {transform: scale(0,5)}
+  50% {transform: scale(1)}
+  50% {transform: scale(1.25)}
+  100% {transform: scale(1)}
+}
+
+
+@keyframes scale_1{
+  0% {transform: scale(0)}
+  25% {transform: scale(0)}
+  50% {transform: scale(0,5)}
+  75% {transform: scale(1.25)}
+  100% {transform: scale(1)}
+}
+
+
+
+
